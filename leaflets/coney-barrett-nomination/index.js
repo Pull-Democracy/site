@@ -40,3 +40,8 @@ window.addEventListener("beforeprint", function(event) {
 });
 
 
+window.addEventListener("afterprint", function(event) {
+
+location.reload();
+
+});
