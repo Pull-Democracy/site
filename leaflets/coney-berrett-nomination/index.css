@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('../../type/CooperHewitt-Thin.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('../../type/CooperHewitt-Medium.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('../../type/CooperHewitt-Thin.otf') format('opentype');
+    font-weight: normal;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'CooperHewitt';
+    src: url('../../type/CooperHewitt-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    font-family: 'CooperHewitt', sans-serif;
+    font-size: 16px;
+    letter-spacing: .04em;
+    line-height: 1.4;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 5.4in 5.4in;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+a:active {
+    color: grey;
+}
+
+ul {
+    list-style-type: square;
+    line-height: 1.4;
+}
+
+li {
+    margin-top: 9px;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+
+
+@media (min-width: 576px) {
+    .container {
+
+    }
+}
+
+#leaflet {
+    padding: 10px;
+}
+
+#page-2 {
+    margin-top: 18px;
+
+}
+
+.qr-code > img {
+    float: right;
+    margin-top: 15px;
+    width: 2cm;
+}
+
+.qr-code > h3, p {
+    margin: 4px;
+}
