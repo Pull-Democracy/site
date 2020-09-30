@@ -16,7 +16,6 @@ function leaflets(sheets, last_leaflet) {
     return undefined;
 }
 
-leaflets(4)
 
 function page_two(sheets, last_leaflet) {
     if (last_leaflet === undefined) {
@@ -35,5 +34,9 @@ function page_two(sheets, last_leaflet) {
     }
     return undefined;
 }
+window.addEventListener("beforeprint", function(event) {
+    leaflets(4)
+    page_two(4)
+});
 
-page_two(4)
+
