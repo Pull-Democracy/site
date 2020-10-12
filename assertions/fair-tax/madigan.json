@@ -8,13 +8,46 @@
             "Why isn't everyone employed?",
             "It states a problem."
         ],
-
-    "[A] Fair Tax will enable us to make the wealthy pay their fair share": [
-        "It offers a solution.",
-        ""
+    "[A] Fair Tax will enable us to make the wealthy pay their fair share":
+        [
+            "It offers a solution.",
+            "Fair refers to the low taxes the rich have paid",
+            "This needs to be confirmed by checking how much the wealthy pay in taxes."
+        ],
+    "to": [
+        {
+            "producers": [
+                "[A] Fair Tax will enable us to make the wealthy pay their fair share"
+            ],
+            "products": [
+                "balance the budget",
+                "invest in critical resources like education and health care",
+                "all while providing relief for 97% of taxpayers."
+            ],
+            "conditions for products": [
+                "That the fair tax passes."
+            ]
+        }
     ],
-    "to": [],
-    "balance the budget": [],
-    "invest in critical resources like education and health care": [],
-    "all while providing relief for 97% of taxpayers." : []
+    "balance the budget": [{
+        "logic sequence": {
+            "If": "we are allowed to have progressive taxation.",
+            "Then": "we can balance the budget."
+        }
+    }],
+    "invest in critical resources like education and health care": [{
+        "logic sequence": {
+            "If": "we are allowed to have progressive taxation",
+            "then": "we can increase our education and health care."
+        }
+    }],
+    "all while providing relief for 97% of taxpayers." : [
+        {
+            "logic sequence": {
+                "If": "we are allowed to have progressive taxation",
+                "then": "we can increase our education and health care."
+            }
+        },
+        "Where does this come from?"
+    ]
 }
