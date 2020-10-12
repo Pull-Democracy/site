@@ -33,21 +33,30 @@
         "logic sequence": {
             "If": "we are allowed to have progressive taxation.",
             "Then": "we can balance the budget."
-        }
+        },
+        "test": [
+            "Does this check out?"
+        ]
     }],
     "invest in critical resources like education and health care": [{
         "logic sequence": {
             "If": "we are allowed to have progressive taxation",
             "then": "we can increase our education and health care."
-        }
+        },
+        "test": [
+            "Does the law provide for this?",
+            {
+                "link": "https://pulldemocracy.vote/assertions/fair-tax/madigan.json"
+            }
+        ]
     }],
     "all while providing relief for 97% of taxpayers." : [
         {
             "logic sequence": {
                 "If": "we are allowed to have progressive taxation",
                 "then": "we can increase our education and health care."
-            }
-        },
-        "Where does this come from?"
+            },
+            "test": "Where does this come from?"
+        }
     ]
 }
