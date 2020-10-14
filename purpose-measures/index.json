@@ -1,0 +1,29 @@
+{
+
+    "purpose": "Enable informed policy decision making.",
+    "measures": {
+        "customer": [
+            ""
+        ],
+        "response": [
+        ],
+        "process": [
+            "Given a policy can deception strategies such as false promises, false enemies, pushing the hot fear botton, hidden agendas and secrecy be recognized when present?",
+            "Given any assertion, is falsehood recognized?",
+            "Can all the logical flows be traced?",
+            "Are the messaging tricks recognized?",
+            "Given a policy, can logical fallacies be recognized?",
+            "All new perspectives on a topic are already predictable."
+        ],
+        "system": []
+    },
+    "demands": [
+            "Help me figure out how I should vote?",
+            "Help me become informed about issue x.",
+            "Help me get informed about everything.",
+            "Help me to other's how to get informed."
+    ],
+    "questions": [
+        "How will we know when enough research has been done to understand a topic exhaustively?"
+    ]
+}
