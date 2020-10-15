@@ -3,19 +3,30 @@
     "purpose": "Enable informed policy decision making.",
     "measures": {
         "customer": [
-            ""
+            "The decision maker leaves confident how and why they understand the ballot or issue.",
+            "The decision maker has a policy that cannot be refuted.",
+            "A decision maker can refute the highest frequency refutable policies."
         ],
         "response": [
+            "How many decision makers ask us for help that we are able to serve?",
+            "How many more can we serve?",
+            "Given a specific policy or issue, how long does it take from when the decision maker asks for help until they are sufficiently informed?",
+            "How long is it from when someone requests to teach until the can teach informed policy decision making?"
         ],
         "process": [
-            "Given a policy can deception strategies such as false promises, false enemies, pushing the hot fear botton, hidden agendas and secrecy be recognized when present?",
+            "Given a policy can deception strategies such as false promises, false enemies, pushing the hot fear button, hidden agendas and secrecy be recognized when present?",
             "Given any assertion, is falsehood recognized?",
             "Can all the logical flows be traced?",
             "Are the messaging tricks recognized?",
             "Given a policy, can logical fallacies be recognized?",
-            "All new perspectives on a topic are already predictable."
+            "All new perspectives on a topic are already predictable.",
+            "That policies are ranked by how much remains effective after refuting false points.",
+            "Is there evidence that suggests better policies can be formed?"
         ],
-        "system": []
+        "system": [
+            "The monthly increase as a percentage of local, regional, national and global population that we train at informed policy decision making.",
+            "The increase as a percentage of local, regional, national and global population that we train at educating informed policy decision making."
+        ]
     },
     "demands": [
             "Help me figure out how I should vote?",
