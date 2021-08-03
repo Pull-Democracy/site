@@ -82,7 +82,7 @@ h2 {
     .container {
         display: grid;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 4.75in 4.75.0in;
+        grid-template-rows: 4.75in 4.75in;
         margin-top: 0px;
         margin-left: 0px;
         margin-right: 0px;
